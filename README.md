@@ -21,6 +21,7 @@ springSecurityをベースに外部サービスと連携できるようにAPIベ
 Account:SpringSecurityと連動する認証情報クラス
 Task:ログインするだけだと寂しかったので、一般的なcrud操作ができるメモ用のクラス
 
+❯ tree -a -I "node_modules|.next|.git|.pytest_cache|static" -L 2
 ###ファイル構成
 ~/{javaprojectのRoot}
 ├── /controller(フロントと連携する用のAPI)
