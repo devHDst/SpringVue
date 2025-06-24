@@ -20,7 +20,7 @@ springSecurityをベースに外部サービスと連携できるようにAPIベ
 ###クラス構成
 Account:SpringSecurityと連動する認証情報クラス
 Task:ログインするだけだと寂しかったので、一般的なcrud操作ができるメモ用のクラス
-
+<pre>
 ###ファイル構成
 ~/{javaprojectのRoot}
 ├── /controller(フロントと連携する用のAPI)
@@ -46,6 +46,7 @@ Task:ログインするだけだと寂しかったので、一般的なcrud操�
     │   └──TaskRepository.java
     └── /payload
         └──LoginForm.java
+</pre>
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
 ###参考記事
